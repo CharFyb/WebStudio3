@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {      
+  text-decoration: none;               
+  outline: none;              
+}
+.header {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo {
+    width: 100%;
+    max-width: 519px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo--navig {
+    width: 100%;
+    max-width: 281px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo--navig--link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #212121;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.header_logo--navig--link:hover {
+    color: #2196F3;
+}
+.header_link {
+    width: 100%;
+    max-width: 307px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_link_emeil {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #757575;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.header_link_emeil:hover {
+    color: #2196F3;
+}
+.header_link_phonenumber {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: #757575;
+}
+.header_link_phonenumber:hover {
+    color: #2196F3;
+}
+.main {
+    border-top: 1px solid #ECECEC ;
+    padding-bottom: 94px;
+}
+.main_buttons {
+    width: 100%;
+    max-width: 575px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 94px;
+    margin-bottom: 34px;
+}
+.main_buttons--button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #212121;
+    border: none;
+    border-radius: 6px;
+    background-color: #F5F4FA;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 6px 25px;
+    cursor: pointer;
+}
+.main_buttons--button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.main_cards {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_cards--card {
+    width: 100%;
+    max-width: 370px;
+    border: 1px solid #EEEEEE;
+    margin-top: 30px;
+}
+.main_cards--card--photo {
+    width: 100%;
+    max-width: 370px;
+    height: 294px;
+    object-fit: cover;  
+}
+.main_cards--card--title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 6%;
+    color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+.main_cards--card--text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    color: #757575;
+    margin-bottom: 20px;
+    margin-left: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+background-color: #2F303A;
+width: 100%;
+}
+.footer_conteiner {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer_conteiner--logo {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #FFFFFF;
+    margin-bottom: 20px;    
+}
+.footer_conteiner--logo--nav {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+}
+.footer_conteiner--logo--address {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color :#FFFFFF;
+    margin-bottom: 9px;
+}
